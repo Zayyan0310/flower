@@ -27,15 +27,15 @@ petals-poetry/
 │   ├── routes/            # Definisi Endpoint API (/api/v1/...)
 │   └── index.js           # Entry Point Utama Server
 │
-├── frontend/              # Antarmuka Pengguna / UI (React.js + Vite)
+├── frontend/              # Antarmuka Pengguna / UI (React.js + Vite + Tailwind)
 │   ├── public/            # Aset Statis Publik (Images, Favicon)
 │   └── src/
-│       ├── components/    # Komponen Reusable (Navbar, Button, Cards)
-│       ├── pages/         # Komponen Halaman Utama (Home, Shop, Story)
-│       ├── services/      # API Fetcher / Integrasi Axios
+│       ├── components/    # Komponen Reusable (Navbar, Sidebar, Detail)
+│       ├── pages/         # Komponen Halaman Utama (Home, Shop, About, Gallery, Order, Login, Register, Panel Admin)
+│       ├── services/
 │       ├── App.jsx
 │       └── main.jsx
 │
-├── .gitignore             # Mengabaikan node_modules & file sensitif
-└── README.md              # Dokumentasi Proyek
+├── .gitignore
+└── README.md
 ```
