@@ -8,12 +8,12 @@ export default function About() {
 
       <main>
         {/* Hero Section */}
-        <section className="relative h-[819px] flex items-center justify-center overflow-hidden">
+        <section className="relative h-[450px] md:h-[60vh] min-h-[500px] flex items-center justify-center overflow-hidden">
           <div className="absolute inset-0 z-0">
             <img
               alt="A cinematic, soft-focus overhead shot of a sun-drenched flower studio filled with overflowing buckets of peonies and wild roses."
-              className="w-full h-full object-cover"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuDCPgp-evRng4mzKcdyK6RUVvzwvK93X3nRURiFMacDgek62QjUq8ZVu2bziK5K2tez8woBzeB5EUupMvHjDDPCV_H42Z6kTqgDhDaRenzvouvsSjzpH0dtOf8T9uKUor71tbY8FRTxezHzBe0nVEh387jpGUMGIBJuXzgHTWYdgeP3Sk074swO2vtu_uuzVtUAf69_sskXuI39hRLPrN5ZJ_Q68AWX531LswXIhXRRxaa-kIlqWeE3taVbkWN-ol9Mvk-8y5fHpx2M"
+              className="w-full h-full object-cover antialiased"
+              src="https://images.unsplash.com/photo-1525310072745-f49212b5ac6d?q=80&w=2070&auto=format&fit=crop"
             />
             <div className="absolute inset-0 bg-background/40 backdrop-blur-[2px]" />
           </div>

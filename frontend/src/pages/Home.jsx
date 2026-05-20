@@ -8,13 +8,9 @@ export default function Home() {
 
       <main>
         {/* Hero Section */}
-        <section className="relative w-full h-[870px] flex items-center overflow-hidden">
+        <section className="relative w-full h-[500px] md:h-[75vh] min-h-[600px] flex items-center overflow-hidden">
           <div className="absolute inset-0 z-0">
-            <img
-              alt="Crafted for Moments of Grace"
-              className="w-full h-full object-cover object-center"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuBNeunQKTX9CESWTPjnX9gay1dLuX9MGuXSjdS69avkO79PQR3_0n6koikgH5_GbXHJNWw6Vjqlhr7OUcOTPO4FK_bDy0LttDOShgAGRLLjOOMs0bK-1cyUoEvbtN08q_gFDOBiizmB0_GOIT2oSvEMCnkTrIiJMVXrRIZ8xCM-z2ms9izBa0zXe8qRlKFo9Oy-XydEwe6KZsOH3OAo3fNnk5GmZAM1PZkftjUcWfCQQmr4_nwTtxDoF2Qo0RTZZtmiABSrWR3P4Wn3"
-            />
+            <img alt="Crafted for Moments of Grace" className="w-full h-full object-cover object-center antialiased" src="https://images.unsplash.com/photo-1533616688419-b7a585564566?q=80&w=2070&auto=format&fit=crop" />
             <div className="absolute inset-0 bg-gradient-to-r from-surface/40 to-transparent" />
           </div>
 
@@ -52,50 +48,29 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
               <div className="group">
                 <div className="aspect-[4/5] overflow-hidden rounded-xl mb-8 shadow-[0_4px_20px_rgba(255,102,178,0.08)]">
-                  <img
-                    alt="Romantic Roses"
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuAKv2hcrvWQmyVaLOi0qhMhmqmy4__GicM5LdNS32PpgjXgna0wbTOSgNnkqqzfRA7-QdRajqCpbBHYrcdydcnIw7iHUxEPdjnBHhYHYu6vPnmS0dgwJDYwqh9jCWZu-fEn7A8OfUTjROkLTxyWidJ_ZdY2jxpNAI5_LVP5Wq-fsClIRXTmlYR0U1ogDHUcegB1aa4RxFp_qhY3jtNPmaRQ9mNPeBOAcbjNhV_61jKAugthGNwVeJbb_GtEKu2284dJnEj_FKCyLL26"
-                  />
+                  <img alt="Romantic Roses" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="/images/bouquet_1.webp" />
                 </div>
                 <span className="font-label-sm text-label-sm text-secondary bg-secondary-fixed/30 px-3 py-1 rounded-full mb-4 inline-block">Bestseller</span>
                 <h3 className="font-headline-md text-headline-md text-on-surface mb-2">Romantic Roses</h3>
                 <p className="font-body-md text-body-md text-on-surface-variant mb-4">Timeless expressions of deep affection and enduring love.</p>
-                <a className="font-label-md text-label-md text-primary uppercase tracking-widest group-hover:text-secondary transition-colors" href="#">
-                  Discover the collection
-                </a>
               </div>
 
               <div className="group">
                 <div className="aspect-[4/5] overflow-hidden rounded-xl mb-8 shadow-[0_4px_20px_rgba(255,102,178,0.08)]">
-                  <img
-                    alt="Spring Pastels"
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuA1yaaMsXBb5qOywyzpqZSy9hY78a77TXzWI-ZI4GonKjYVkqCWpzQSRaihbm0D3-lMaNoOpRD3O8vS_XrYoTL8rorVn0Y4ME7Aa_8kfFwSaVkrnDyb8jS_p_92Gq4Yylvk9pBkFMTcBKSEWSN1qZ56AWu3twRwrAPC1lMey1Z91BR2eQHn-rKw2zgHlSFc7vBr64XRdkWEndfZxiSR470xowUdZP1w7Z-h9yS2Q_UyoK_leDJj58jY_bgX89JZJQXTMVIa1zZzmOKL"
-                  />
+                  <img alt="Spring Pastels" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="/images/bouquet_2.webp" />
                 </div>
                 <span className="font-label-sm text-label-sm text-tertiary bg-tertiary-fixed/30 px-3 py-1 rounded-full mb-4 inline-block">New Arrival</span>
                 <h3 className="font-headline-md text-headline-md text-on-surface mb-2">Spring Pastels</h3>
                 <p className="font-body-md text-body-md text-on-surface-variant mb-4">A gentle whisper of color to brighten the quietest corners of your home.</p>
-                <a className="font-label-md text-label-md text-primary uppercase tracking-widest group-hover:text-secondary transition-colors" href="#">
-                  Discover the collection
-                </a>
               </div>
 
               <div className="group">
                 <div className="aspect-[4/5] overflow-hidden rounded-xl mb-8 shadow-[0_4px_20px_rgba(255,102,178,0.08)]">
-                  <img
-                    alt="Elegant Lilies"
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuA7vHomIyLt7G1gMsJB1RY5b_wiPOJYjCo-TCwBp5H7wIipyRULDjsOLApJouB-jiV3sWv2kqGcjMGO5mcAyrw_SWSHF4l4wMFRZ0nOdWVAufWWiAQ_gfKkh1N2ShtNLfaTgYo-WRZ7hjmj5TTOu9ZsPbW6C7h7hhZmm_N9Oz14geXvrUbZgDa5LTbfrz25vBAh_LG37I9Pl4hphSzgO74Hc-LbzgGSmfgNlEzyl7S66jDSRTwr3fSpKVsGpPGHZoOuKr_WrtiU5aQm"
-                  />
+                  <img alt="Elegant Lilies" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" src="/images/bouquet_3.webp" />
                 </div>
                 <span className="font-label-sm text-label-sm text-primary bg-primary-fixed/30 px-3 py-1 rounded-full mb-4 inline-block">Limited Edition</span>
                 <h3 className="font-headline-md text-headline-md text-on-surface mb-2">Elegant Lilies</h3>
                 <p className="font-body-md text-body-md text-on-surface-variant mb-4">Sculptural blooms that command attention with their graceful presence.</p>
-                <a className="font-label-md text-label-md text-primary uppercase tracking-widest group-hover:text-secondary transition-colors" href="#">
-                  Discover the collection
-                </a>
               </div>
             </div>
           </div>
